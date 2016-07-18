@@ -13,7 +13,6 @@ namespace CarLibrary
 
         public int IsInteresting(int number, int[] awesomePhrases)
         {
-            return 0;
             if (number < 100) return 0;
 
             if (awesomePhrases.Contains(number)) return 2;
